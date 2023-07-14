@@ -1,0 +1,209 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c86;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* heading */
+
+.heading-text {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Image of iPhone */
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Id features */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+.f1 {
+  padding: 0% 5%;
+}
+
+.f2 {
+  padding: 0% 5%;
+}
+
+.f3 {
+  padding: 0% 5%;
+}
+
+.feat-discp {
+  font-family: 'Ubuntu';
+  color: #8f8f8f;
+}
+
+.tick {
+  height: 60%;
+  font-size: 5.5rem;
+  color: #ef8172;
+}
+
+.circle {
+  height: 60%;
+  font-size: 5.5rem;
+  color: #ef8172;
+}
+
+.heart {
+  height: 60%;
+  font-size: 5.5rem;
+  color: #ef8172;
+
+}
+
+.tick:hover {
+  color: #ff4c86;
+}
+
+.circle:hover {
+  color: #ff4c86;
+}
+
+.heart:hover {
+  color: #ff4c86;
+}
+
+.feature-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.img-press {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-d {
+  padding: 3% 2%;
+}
+
+@media (max-width : 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to action */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c86;
+  color: #fff;
+}
+
+.cta-discp {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
